@@ -64,4 +64,4 @@ time
 ```
 
 
-![snapshots](https://github.com/fragosoft/SEBC/blob/master/resources/labs/evidence/yarn_4.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/resources/labs/evidence/yarn_5.png)
