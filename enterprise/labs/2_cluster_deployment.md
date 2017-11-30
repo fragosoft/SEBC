@@ -1,4 +1,4 @@
-```
+```json
 ☣  fragosoft ☣  ༃  curl -u fragosoft:Trendit09831 'http://ec2-54-243-4-19.compute-1.amazonaws.com:7180/api/v2/cm/deployment'
 {
   "timestamp" : "2017-11-30T20:13:22.136Z",
