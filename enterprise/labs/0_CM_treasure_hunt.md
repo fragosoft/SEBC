@@ -10,28 +10,28 @@
 	
 	**R:** 
 	
-		__1. Select Administration tab.  
+		1. Select Administration tab.  
 		2. Select Settings.  
 		3. Select Category > Kerberos.  
-		4. Select Status > Non-default__
+		4. Select Status > Non-default
 
 * Which CDH service(s) host a property for enabling Kerberos authentication?
 	
 	**R:**
 
-		* __Sentry__
-		* __Hue__
-		* __Hive__
+		* Sentry
+		* Hue
+		* Hive
 
 * How do you upgrade the CM agents?
 	
 	**R:**
 
-	__1. Log in to the Cloudera Manager Admin Console.  
+	1. Log in to the Cloudera Manager Admin Console.  
   
-2. Upgrade hosts using one of the following methods:  
-   + Cloudera Manager installs Agent software  
-     -Select Yes, I would like to upgrade the Cloudera Manager Agent packages now and click Continue.  
+	2. Upgrade hosts using one of the following methods:  
+   		+ Cloudera Manager installs Agent software  
+     	-Select Yes, I would like to upgrade the Cloudera Manager Agent packages now and click Continue.  
 Select the release of the Cloudera Manager Agent to install. Normally, this is the Matched Release for this Cloudera Manager Server. However, if you used a custom repository (instead of archive.cloudera.com) for the Cloudera Manager server, select Custom Repository and provide the required information. The custom repository allows you to use an alternative location, but that location must contain the matched Agent version.
 Click Continue. The JDK Installation Options page displays.
 Leave Install Oracle Java SE Development Kit (JDK) checked to allow Cloudera Manager to install the JDK on each cluster host, or uncheck if you plan to install it yourself.
