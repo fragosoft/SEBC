@@ -9,10 +9,12 @@ uid=1001(fragosoft) gid=1002(clouderaBootcamp) groups=1002(clouderaBootcamp)</co
 
 * Create a 10 GB file using teragen
 	* Set the number of mappers to four
+
 	<code>hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-0.20-mapreduce/hadoop-examples.jar teragen -Dmapred.map.tasks=# **4** -Dmapred.map.tasks.speculative.execution=false 100000000 terasort-input</code>
+	
 	* Land the output in your user's home directory
-	<code></code>
 	* Use the time command to report the job's duration
+	
 ![iptables](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_1.png)
 ![iptables](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_2.png)
 ![iptables](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_3.png)
