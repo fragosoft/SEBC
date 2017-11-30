@@ -1,3 +1,18 @@
-```
+# SENTRY Install
 
-```
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_1.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_2.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_3.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_4.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_5.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_6.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_7.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_8.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_9.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_10.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_11.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_12.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_13.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_14.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_15.png)
+![snapshots](https://github.com/fragosoft/SEBC/blob/master/security/labs/evidence/security_16.png)
