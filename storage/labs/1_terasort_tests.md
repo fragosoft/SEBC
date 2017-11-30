@@ -14,9 +14,9 @@ uid=1001(fragosoft) gid=1002(clouderaBootcamp) groups=1002(clouderaBootcamp)</co
 	
 	* Land the output in your user's home directory
 	* Use the time command to report the job's duration
-	
-![iptables](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_1.png)
-![iptables](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_2.png)
-![iptables](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_3.png)
-![iptables](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_4.png)
-![iptables](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_5.png)
+
+![teragen1](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_1.png)
+![teragen2](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_2.png)
+![teragen3](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_3.png)
+![teragen4](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_4.png)
+![teragen5](https://github.com/fragosoft/SEBC/blob/master/storage/labs/evidence/teragen_5.png)
