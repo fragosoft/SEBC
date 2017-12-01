@@ -51,9 +51,14 @@ Click Continue. The Host Inspector runs to inspect your managed hosts for correc
 	
 	**R:**
 
+
 * Name all the roles that make up the Hive service
 	
 	**R:**
+		1. HiveServer2
+		2. Hive Metastore  
+		3. WebHcatServer  
+		3. Gateway
 
 * What steps must be completed before integrating Cloudera Manager with Kerberos?
 	
