@@ -61,3 +61,21 @@ uid=2800(saturn) gid=2800(saturn) groups=2800(saturn),2902(planets)
 uid=2900(haley) gid=2900(haley) groups=2900(haley),2901(comets)
 [root@ip-172-31-51-186 ec2-user]# 
 ```
+
+## **List /etc/passwd**
+```
+[root@ip-172-31-61-222 ec2-user]# cat /etc/passwd | grep saturn
+saturn:x:2800:2800::/home/saturn:/bin/bash
+[root@ip-172-31-61-222 ec2-user]# cat /etc/passwd | grep haley
+haley:x:2900:2900::/home/haley:/bin/bash
+[root@ip-172-31-61-222 ec2-user]# 
+```
+
+## **/etc/group**
+```
+[root@ip-172-31-51-186 ec2-user]# cat /etc/group | grep planets
+planets:x:2902:saturn
+[root@ip-172-31-51-186 ec2-user]# cat /etc/group | grep comets
+comets:x:2901:haley
+[root@ip-172-31-51-186 ec2-user]# 
+```
