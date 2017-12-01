@@ -16,15 +16,48 @@ Red Hat Enterprise Linux Server release 7.4 (Maipo)
 ## **Filesystem capacity**
 My instances have the same capacity 
 ```
-[root@ip-172-31-56-245 ec2-user]# df 
-Filesystem     1K-blocks    Used Available Use% Mounted on
-/dev/xvda2      52416492 1201088  51215404   3% /
-devtmpfs        15337864       0  15337864   0% /dev
-tmpfs           15358148       0  15358148   0% /dev/shm
-tmpfs           15358148   16732  15341416   1% /run
-tmpfs           15358148       0  15358148   0% /sys/fs/cgroup
-tmpfs            3071632       0   3071632   0% /run/user/1000
-/dev/xvdb1     123721280   61464 117352080   1% /disk00
-/dev/xvdc1     123721280   61464 117352080   1% /disk01
-tmpfs            3071632       0   3071632   0% /run/user/0
+[root@ip-172-31-56-245 ec2-user]# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda2       50G  1.2G   49G   3% /
+devtmpfs         15G     0   15G   0% /dev
+tmpfs            15G     0   15G   0% /dev/shm
+tmpfs            15G   17M   15G   1% /run
+tmpfs            15G     0   15G   0% /sys/fs/cgroup
+tmpfs           3.0G     0  3.0G   0% /run/user/1000
+/dev/xvdb1      118G   61M  112G   1% /disk00
+/dev/xvdc1      118G   61M  112G   1% /disk01
+tmpfs           3.0G     0  3.0G   0% /run/user/0
+```
+
+## **Repolist enabled**
+
+```
+[root@ip-172-31-61-222 ec2-user]# yum repolist enabled
+Failed to set locale, defaulting to C
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+repo id                                                                         repo name                                                                                      status
+rhui-REGION-client-config-server-7/x86_64                                       Red Hat Update Infrastructure 2.0 Client Configuration Server 7                                    8
+rhui-REGION-rhel-server-releases/7Server/x86_64                                 Red Hat Enterprise Linux Server 7 (RPMs)                                                       17521
+rhui-REGION-rhel-server-rh-common/7Server/x86_64                                Red Hat Enterprise Linux Server 7 RH Common (RPMs)                                               228
+repolist: 17757
+[root@ip-172-31-61-222 ec2-user]# 
+```
+
+
+## **Linux accounts**
+
+```
+[root@ip-172-31-51-186 ec2-user]# useradd -u 2800 saturn
+[root@ip-172-31-51-186 ec2-user]# useradd -u 2900 haley
+[root@ip-172-31-51-186 ec2-user]# groupadd comets
+[root@ip-172-31-51-186 ec2-user]# groupadd planets
+[root@ip-172-31-51-186 ec2-user]# usermod -G saturn planets
+usermod: user 'planets' does not exist
+[root@ip-172-31-51-186 ec2-user]# usermod -G planets saturn
+[root@ip-172-31-51-186 ec2-user]# usermod -G comets haley
+[root@ip-172-31-51-186 ec2-user]# id saturn
+uid=2800(saturn) gid=2800(saturn) groups=2800(saturn),2902(planets)
+[root@ip-172-31-51-186 ec2-user]# id haley
+uid=2900(haley) gid=2900(haley) groups=2900(haley),2901(comets)
+[root@ip-172-31-51-186 ec2-user]# 
 ```
