@@ -8,3 +8,8 @@ baseurl = https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.11.2/
 gpgkey = https://archive.cloudera.com/redhat/cdh/RPM-GPG-KEY-cloudera
 gpgcheck = 1
 ```
+
+## **Prepare database SCM**
+```
+/usr/share/cmf/schema/scm_prepare_database.sh mysql -h ip-172-31-61-222.ec2.internal -utemp -ptemp --scm-host ip-172-31-56-245.ec2.internal scm scm scm
+```
